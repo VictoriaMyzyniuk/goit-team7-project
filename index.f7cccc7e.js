@@ -1,0 +1,2 @@
+var refs={mobileBtn:document.querySelector("[data-js-open-menu]"),mobileMenu:document.querySelector("[data-mobile-menu]")};function toggleMobileMenu(){refs.mobileMenu.classList.toggle("mobile-menu__content--is-hidden"),refs.mobileBtn.classList.toggle("is-open");var e=refs.mobileBtn.classList.contains("is-open");document.body.style.overflow=e?"hidden":"initial"}refs.mobileBtn.addEventListener("click",toggleMobileMenu);
+//# sourceMappingURL=index.f7cccc7e.js.map
