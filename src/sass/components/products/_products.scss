@@ -319,7 +319,7 @@ position: absolute;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-    
+    transition: transform var(--duration) var(--timing-function);
         @media screen and (min-width: 768px) {
             padding: 30px;
         }
